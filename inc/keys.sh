@@ -1,6 +1,6 @@
 #! /bin/bash
 
-key_names=(staging production gj gs)
+key_names=(me gj gs)
 
 for key in "${key_names[@]}"
 do
