@@ -1,0 +1,2 @@
+ssh-add ~/.ssh/gj.prv > /dev/null 2>&1
+ssh-add ~/.ssh/gs.prv > /dev/null 2>&1
