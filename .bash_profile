@@ -9,7 +9,7 @@ nvm use 0.10
 pwd=$("pwd")
 
 source $pwd/dotfiles/libs/prompt.sh
-source $pwd/dotfiles/.aliases
-source $pwd/dotfiles/.keys
+source $pwd/dotfiles/inc/aliases.sh
+source $pwd/dotfiles/inc/keys.sh
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
