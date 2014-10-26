@@ -11,3 +11,7 @@ alias gitmod="git config core.fileMode false && git submodule foreach git config
 
 # System
 alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
+
+# Dir
+alias ..="cd .."
+alias ...="cd ../.."
