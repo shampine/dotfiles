@@ -9,5 +9,3 @@ do
     echo "SSH Key $key loaded."
   fi
 done
-
-key_names=(staging production gj gs)
