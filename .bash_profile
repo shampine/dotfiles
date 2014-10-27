@@ -3,6 +3,7 @@
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH=/usr/local/php5/bin:$PATH
 export PATH=${PATH}:/usr/local/mysql/bin
+export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
 
 nvm use 0.10
 
