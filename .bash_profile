@@ -9,7 +9,7 @@ nvm use 0.10
 
 pwd=$("pwd")
 
-source $pwd/dotfiles/libs/prompt.sh
+source $pwd/dotfiles/libs/cowboy-dotfiles/source/50_prompt.sh
 source $pwd/dotfiles/inc/aliases.sh
 source $pwd/dotfiles/inc/keys.sh
 

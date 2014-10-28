@@ -1,0 +1,6 @@
+[submodule "libs/vim-colors-solarized"]
+	path = libs/vim-colors-solarized
+	url = git@github.com:altercation/vim-colors-solarized.git
+[submodule "libs/cowboy-dotfiles"]
+	path = libs/cowboy-dotfiles
+	url = git@github.com:cowboy/dotfiles.git
