@@ -15,3 +15,6 @@ alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Res
 # Dir
 alias ..="cd .."
 alias ...="cd ../.."
+
+# Size Dirs
+alias size="du -sh *"
