@@ -29,9 +29,10 @@ ln -s ~/path/to/dotfiles/libs/vim-colors-solarized/colors ~/.vim/colors
 These are the include libs and links back to their respective authors.
 
 [prompt.sh](https://github.com/cowboy/dotfiles/blob/master/source/50_prompt.sh)  
+[wp-completion](https://github.com/wp-cli/wp-cli/)  
 [solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)  
 [solarized-vim](https://github.com/altercation/vim-colors-solarized)
 
 ##license
 
-MIT
+All submodules and /inc/ files are sourced to their respective author and fall under that appropriate license. All else MIT.
