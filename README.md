@@ -35,4 +35,4 @@ These are the include libs and links back to their respective authors.
 
 ##license
 
-All submodules and /inc/ files are sourced to their respective author and fall under that appropriate license. All else MIT.
+All submodules, `/inc/`, and `/libs/` files are sourced to their respective author and fall under that appropriate license. All else MIT.
