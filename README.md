@@ -8,7 +8,7 @@ It is better to source these files at the end of your existing `.bash_profile` t
 
 In `.bash_profile` use:
 ```
-source ~/path/to/dotfiles/.bash_profile
+source ~/path/to/dotfiles/.shampine
 ```
 
 ###vim
