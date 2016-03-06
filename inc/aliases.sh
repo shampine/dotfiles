@@ -11,6 +11,11 @@ alias gitmod="git config core.fileMode false && git submodule foreach git config
 
 # System
 alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
+alias ehosts="sudo vim /etc/hosts"
+
+# Apache
+alias evhosts="sudo vim /etc/apache2/extra/httpd-vhosts.conf"
+alias restart="sudo apachectl restart"
 
 # Dir
 alias ..="cd .."
