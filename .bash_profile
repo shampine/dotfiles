@@ -25,7 +25,7 @@ export PATH=${PATH}:/usr/local/mysql/bin
 export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
 
 ## Scripts
-who=$("who")
+who=$("whoami")
 
 source /Users/$who/dotfiles/libs/cowboy-dotfiles/source/50_prompt.sh
 source /Users/$who/dotfiles/libs/wp-completion.sh
