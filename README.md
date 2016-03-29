@@ -24,6 +24,19 @@ and
 ln -s ~/path/to/dotfiles/libs/vim-colors-solarized/colors ~/.vim/colors
 ```
 
+## color issues
+
+Terminal Prefs
+
+`Advanced > Termininfo > Declare terminal as > xterm-256color`
+
+Install coreutils via Homebrew
+
+```
+brew update
+brew install coreutils
+```
+
 ##libs
 
 These are the include libs and links back to their respective authors.
