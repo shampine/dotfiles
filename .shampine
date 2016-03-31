@@ -40,6 +40,11 @@ if [ -e /Users/$who/.servers ]; then
   echo "Server aliases loaded."
 fi
 
+if [ -e /Users/$who/.profile ]; then
+  source /Users/$who/.profile
+  echo "Loaded a local profile."
+fi
+
 ## SSH
 ssh-add ~/.ssh/gj.prv > /dev/null 2>&1
 

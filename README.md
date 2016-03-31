@@ -37,7 +37,7 @@ brew update
 brew install coreutils
 ```
 
-##libs
+## libs
 
 These are the include libs and links back to their respective authors.
 
@@ -46,6 +46,15 @@ These are the include libs and links back to their respective authors.
 [solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)  
 [solarized-vim](https://github.com/altercation/vim-colors-solarized)
 
-##license
+### local libs
+
+You can load multiple local libs if needed
+
+| File     | Location   | Usage                                                      |
+| ---      | ---        | ---                                                        |
+| .profile | ~/.profile | Loads a local profile for that specific env                |
+| .servers | ~/.servers | Loads any server shortcuts that you need in your local env | 
+
+## license
 
 All submodules, `/inc/`, and `/libs/` files are sourced to their respective author and fall under that appropriate license. All else MIT.
