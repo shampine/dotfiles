@@ -45,6 +45,3 @@ if [ -e /Users/$who/.profile ]; then
   echo "Loaded a local profile."
 fi
 
-## SSH
-ssh-add ~/.ssh/gj.prv > /dev/null 2>&1
-
