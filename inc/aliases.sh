@@ -23,6 +23,7 @@ alias restart="sudo apachectl restart"
 ## git
 alias gitshit="git fetch --all && git status"
 alias gitmod="git config core.fileMode false && git submodule foreach git config core.filemode false"
+alias gitnuke="git reset --hard HEAD && git clean -fdx"
 
 ## vagrant
 alias vup="cd ~/vagrant/; vagrant up;"
