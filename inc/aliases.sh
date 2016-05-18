@@ -21,6 +21,8 @@ alias evhosts="sudo vim /etc/apache2/extra/httpd-vhosts.conf"
 alias restart="sudo apachectl restart"
 
 ## git
+## todo: https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
+## Move any git aliases into a function run to modify global configs on shell launch
 alias gitshit="git fetch --all && git status"
 alias gitmod="git config core.fileMode false && git submodule foreach git config core.filemode false"
 alias gitnuke="git reset --hard HEAD && git clean -fdx"
