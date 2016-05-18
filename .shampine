@@ -25,7 +25,7 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 export PATH=${PATH}:/usr/local/mysql/bin
 
 ## Git
-export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 ## Scripts
 who=$("whoami")
