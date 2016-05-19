@@ -10,7 +10,7 @@ export PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 ## Node && nvm
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh 
 
-nvm use 5.7.1
+nvm use 6.2.0
 
 ## Ruby && rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
