@@ -31,3 +31,6 @@ alias gitnuke="git reset --hard HEAD && git clean -fdx"
 alias vup="cd ~/vagrant/; vagrant up;"
 alias vsh="cd ~/vagrant/; vagrant ssh;"
 
+## misc
+alias rick="nc rya.nc 1987"
+
