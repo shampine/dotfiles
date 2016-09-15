@@ -33,4 +33,5 @@ alias vsh="cd ~/vagrant/; vagrant ssh;"
 
 ## misc
 alias rick="nc rya.nc 1987"
+alias poop="say :hankey:;"
 
