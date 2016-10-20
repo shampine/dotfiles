@@ -1,6 +1,26 @@
 ###
 #
-# Main Loader for all my scripts
+# Vars
+#
+###
+
+who=$("whoami")
+
+###
+#
+# Load scripts
+#
+###
+
+source /Users/$who/dotfiles/libs/cowboy-dotfiles/source/50_prompt.sh
+source /Users/$who/dotfiles/libs/wp-completion.sh
+source /Users/$who/dotfiles/libs/git-flow-completion/git-flow-completion.bash
+source /Users/$who/dotfiles/inc/aliases.sh
+source /Users/$who/dotfiles/inc/keys.sh
+
+###
+#
+# Load environments
 #
 ###
 
@@ -41,17 +61,20 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
 
-## Scripts
-source /Users/$who/dotfiles/libs/cowboy-dotfiles/source/50_prompt.sh
-source /Users/$who/dotfiles/libs/wp-completion.sh
-source /Users/$who/dotfiles/libs/git-flow-completion/git-flow-completion.bash
-source /Users/$who/dotfiles/inc/aliases.sh
-source /Users/$who/dotfiles/inc/keys.sh
+# Load servers
+#
+###
 
 if [ -e /Users/$who/.servers ]; then
   	source /Users/$who/.servers
   	echo "Server aliases loaded."
 fi
+
+###
+#
+# Load profile
+#
+###
 
 if [ -e /Users/$who/.profile ]; then
   	source /Users/$who/.profile
