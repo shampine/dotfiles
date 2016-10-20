@@ -39,6 +39,7 @@ who=$("whoami")
 
 source /Users/$who/dotfiles/libs/cowboy-dotfiles/source/50_prompt.sh
 source /Users/$who/dotfiles/libs/wp-completion.sh
+source /Users/$who/dotfiles/libs/git-flow-completion/git-flow-completion.bash
 source /Users/$who/dotfiles/inc/aliases.sh
 source /Users/$who/dotfiles/inc/keys.sh
 
