@@ -4,3 +4,6 @@
 [submodule "libs/cowboy-dotfiles"]
 	path = libs/cowboy-dotfiles
 	url = git@github.com:cowboy/dotfiles.git
+[submodule "libs/git-flow-completion"]
+	path = libs/git-flow-completion
+	url = git@github.com:bobthecow/git-flow-completion.git
