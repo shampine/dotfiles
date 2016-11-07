@@ -4,6 +4,13 @@
 #
 ###
 
+who=$("whoami")
+
+## Bin
+if [ -d /Users/$who/bin ]; then
+	export PATH=~/bin:$PATH
+fi
+
 ## Python
 export PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 
@@ -31,12 +38,10 @@ export PATH="/usr/local/bin:$PATH"
 export HOMEBREW_NO_ANALYTICS=1
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    . $(brew --prefix)/etc/bash_completion
+	. $(brew --prefix)/etc/bash_completion
 fi
 
 ## Scripts
-who=$("whoami")
-
 source /Users/$who/dotfiles/libs/cowboy-dotfiles/source/50_prompt.sh
 source /Users/$who/dotfiles/libs/wp-completion.sh
 source /Users/$who/dotfiles/libs/git-flow-completion/git-flow-completion.bash
@@ -44,11 +49,11 @@ source /Users/$who/dotfiles/inc/aliases.sh
 source /Users/$who/dotfiles/inc/keys.sh
 
 if [ -e /Users/$who/.servers ]; then
-  source /Users/$who/.servers
-  echo "Server aliases loaded."
+  	source /Users/$who/.servers
+  	echo "Server aliases loaded."
 fi
 
 if [ -e /Users/$who/.profile ]; then
-  source /Users/$who/.profile
-  echo "Loaded a local profile."
+  	source /Users/$who/.profile
+	echo "Loaded a local profile."
 fi
