@@ -35,4 +35,5 @@ alias vdn="cd ~/vagrant/; vagrant suspend;"
 ## misc
 alias rick="nc rya.nc 1987"
 alias poop="say :hankey:;"
+alias todo="vim ~/dotfiles/todo.md"
 

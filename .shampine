@@ -57,3 +57,15 @@ if [ -e /Users/$who/.profile ]; then
   	source /Users/$who/.profile
 	echo "Loaded a local profile."
 fi
+
+## Todo
+TODO_DIST=/Users/$who/dotfiles/todo.md.dist
+TODO_FILE=/Users/$who/dotfiles/todo.md
+
+if [ -f $TODO_FILE ]; then
+	echo "Existing todo.md file found."
+else
+	cp $TODO_DIST $TODO_FILE
+	echo "Created todo.md file."
+fi
+
