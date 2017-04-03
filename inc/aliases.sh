@@ -4,6 +4,9 @@ username=$("whoami")
 alias lock="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
 alias ehosts="sudo vim /etc/hosts"
 
+# history
+alias clear_history="cat /dev/null > ~/.bash_history && history -c && exit"
+
 ## dir
 alias ..="cd .."
 alias ...="cd ../.."
@@ -36,4 +39,3 @@ alias vdn="cd ~/vagrant/; vagrant suspend;"
 alias rick="nc rya.nc 1987"
 alias poop="say :hankey:;"
 alias todo="vim ~/dotfiles/todo.md"
-
