@@ -39,3 +39,8 @@ alias vdn="cd ~/vagrant/; vagrant suspend;"
 alias rick="nc rya.nc 1987"
 alias poop="say :hankey:;"
 alias todo="vim ~/dotfiles/todo.md"
+
+## dns
+alias google="networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4"
+alias unlocator="networksetup -setdnsservers Wi-Fi 185.37.37.37 185.37.39.39"
+
