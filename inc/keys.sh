@@ -1,6 +1,6 @@
 #! /bin/bash
 
-key_names=(me gs cr gfm)
+key_names=(me gs cr gfm k8s)
 
 for key in "${key_names[@]}"
 do
