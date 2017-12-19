@@ -45,7 +45,6 @@ nvm use 6.2.0
 export PATH="$PATH:$HOME/.rvm/bin"
 
 ## PHP && composer
-export PATH=/usr/local/php5/bin:$PATH
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 ## MySql
